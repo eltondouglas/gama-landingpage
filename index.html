@@ -12,7 +12,7 @@
 <body>
 
 
-    <div class="container">
+    <div class="container-principal">
         <!--Menu-->
         <div class="brand">
             <img src="img/icon/favicon.png">
@@ -49,11 +49,12 @@
                     </div>
 
                     <div class="text">
-                        <span>Remédio contra COVID-19 pode estar pronto no meio de maio, diz Marcos Pontes</span>
+                        <span>Remédio contra COVID-19 pode estar pronto no meio de maio, diz Marcos Pontes.</span>
                     </div>
 
                     <div class="fonte">
-                        <div class="link"><a href="https://www.cnnbrasil.com.br/">CNN Brasil</a></div> <div class="data">18/04/2020</div>
+                        <div class="link"><a href="https://www.cnnbrasil.com.br/">CNN Brasil</a></div>
+                        <div class="data">18/04/2020</div>
                     </div>
                 </div>
             </a>
@@ -69,11 +70,12 @@
                     </div>
 
                     <div class="text">
-                        <span>Brasil receberá milhões de testes contra coronavírus na próxima semana, diz OMS</span>
+                        <span>Brasil receberá milhões de testes contra coronavírus na próxima semana, diz OMS.</span>
                     </div>
 
                     <div class="fonte">
-                        <div class="link"><a href="https://www.cnnbrasil.com.br/">CNN Brasil</a></div> <div class="data">17/04/2020</div>
+                        <div class="link"><a href="https://www.cnnbrasil.com.br/">CNN Brasil</a></div>
+                        <div class="data">17/04/2020</div>
                     </div>
                 </div>
             </a>
@@ -85,15 +87,17 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="https://i.em.com.br/IiMDNxGJl6Vs6dl_HYXNmoZRCT0=/820x0/smart/imgsapp.em.com.br/app/noticia_127983242361/2020/04/18/1139804/20200418071253612773u.jpg">
+                        <img
+                            src="https://i.em.com.br/IiMDNxGJl6Vs6dl_HYXNmoZRCT0=/820x0/smart/imgsapp.em.com.br/app/noticia_127983242361/2020/04/18/1139804/20200418071253612773u.jpg">
                     </div>
 
                     <div class="text">
-                        <span>Brasil receberá milhões de testes contra coronavírus na próxima semana, diz OMS</span>
+                        <span>Coronavírus: os detalhes das sete vacinas em testes no mundo.</span>
                     </div>
 
                     <div class="fonte">
-                        <div class="link"><a href="https://www.em.com.br">Estado de Minas</a></div> <div class="data">18/04/2020</div>
+                        <div class="link"><a href="https://www.em.com.br">Estado de Minas</a></div>
+                        <div class="data">18/04/2020</div>
                     </div>
                 </div>
             </a>
@@ -105,15 +109,17 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="https://s2.glbimg.com/FY7jR1lKQuEj1F5aAt5OBHDTOsc=/620x350/e.glbimg.com/og/ed/f/original/2020/04/10/gettyimages-1209574027.jpg">
+                        <img
+                            src="https://s2.glbimg.com/FY7jR1lKQuEj1F5aAt5OBHDTOsc=/620x350/e.glbimg.com/og/ed/f/original/2020/04/10/gettyimages-1209574027.jpg">
                     </div>
 
                     <div class="text">
-                        <span>Brasil receberá milhões de testes contra coronavírus na próxima semana, diz OMS</span>
+                        <span>Itália tem maior número de curados de Covid-19 em 24h.</span>
                     </div>
 
                     <div class="fonte">
-                        <div class="link"><a href="https://epocanegocios.globo.com/">Epoca Negocios</a></div class="data"> <div>17/04/2020</div>
+                        <div class="link"><a href="https://epocanegocios.globo.com/">Epoca Negocios</a></div>
+                        <div class="data">17/04/2020</div>
                     </div>
                 </div>
             </a>
@@ -125,13 +131,20 @@
         <!--Sobre-->
         <footer>
 
-            <div class="sobre" id="sobre">
+            <div class="perfil" id="sobre">
 
                 <div>
-                    <img src="img/perfil.jpg" width="8%">
+                    <img class="perfil-img" src="img/perfil.jpg" width="8%">
                 </div>
 
-                <div>
+                <div class="perfil-link">
+                    <div>
+                        <a href="https://www.linkedin.com/in/elton-dmsantos"><img
+                                src="img/linkedin.png"><span>Linkedin</span></a>
+                    </div>
+                </div>
+
+                <div class="perfil-info">
                     <p>Elton Douglas</p>
                     <p>Formado em análise e desenvolvimento de sistemas</p>
                     <p>Java Developer</p>
@@ -140,12 +153,53 @@
 
             </div>
 
-            <div class="fontes" id="fontes">
+            <div class="perfil">
 
-            </div>
+                <div class="perfil-info" id="contato">
 
-            <div class="contato" id="contato">
+                    <div class="container">
+                        <form id="contact" action="" method="post">
+                            <h3>Contato</h3>
+                            <h4>Entre em contato</h4>
+                            <fieldset>
+                                <input placeholder="Seu nome" type="text" tabindex="1" required autofocus>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Seu e-mail" type="email" tabindex="2" required>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Seu telefone(opcional)" type="tel" tabindex="3" required>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Seu site (opcional)" type="url" tabindex="4" required>
+                            </fieldset>
+                            <fieldset>
+                                <textarea placeholder="Insira sua mensagem aqui...." tabindex="5" required></textarea>
+                            </fieldset>
+                            <fieldset>
+                                <button name="submit" type="submit" id="contact-submit"
+                                    data-submit="...Enviando">Enviar</button>
+                            </fieldset>
+                            <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank"
+                                    title="Colorlib">Colorlib</a></p>
+                        </form>
+                    </div>
 
+                    <div class="perfil-info fontes" id="fontes">
+
+                        <img src="img/fontes.png">
+
+                        <h4>Fontes</h4>
+
+                        <p><a href="https://epocanegocios.globo.com/">Epoca Negocios</a></p>
+
+                        <p><a href="https://www.em.com.br">Estado de Minas</a></p>
+
+                        <p><a href="https://www.cnnbrasil.com.br/">CNN Brasil</a></p>
+
+                    </div>
+                    
+                </div>
             </div>
 
         </footer>
