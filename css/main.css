@@ -3,9 +3,14 @@ body{
     font-size: 20px;
 }
 
+a{
+    text-decoration: unset;
+    color: inherit;
+}
+
 .container{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .brand{
@@ -24,9 +29,43 @@ body{
     flex-flow: row;
     background-color: rgb(104, 177, 236);
     justify-content:space-between;
+    margin-bottom: 20px;
 }
 
 .menu div{
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.box{
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 10px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text{
+    border-top: 1px rgba(0, 0, 0, 0.2) solid;
+    border-left: 1px rgba(0, 0, 0, 0.2) solid;
+    border-right: 1px rgba(0, 0, 0, 0.2) solid;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fonte{
+    display: flex;
+    justify-content: space-between;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+.link{
+    margin-right: 20px;
 }
