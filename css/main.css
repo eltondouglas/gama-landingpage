@@ -231,3 +231,13 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+.video{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video iframe{
+  width: 100%;
+}
